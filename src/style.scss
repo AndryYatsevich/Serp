@@ -1,0 +1,87 @@
+$togava: rgb(206, 1, 144); //фиолетовые
+$albion: rgb(37, 114, 37);
+$krym: yellow;
+$russvet: red;
+$sever: blue;
+$saksonia: black;
+$polyania: white;
+$vesna: rgb(80, 247, 238);
+$fenriz: rgb(250, 143, 20);
+
+.user--item {
+    position: relative;
+    border-radius: 20px;
+    margin: 10px 0 !important;
+    justify-content: center;
+    color: rgb(194, 192, 192);
+  }
+
+.polyania {
+  border: 1px solid $polyania;
+  background-color: darken($polyania, 20%);
+  color: lighten($polyania, 30%);
+}
+
+.vesna {
+  border: 1px solid $vesna;
+  background-color: darken($vesna, 20%);
+  color: lighten($vesna, 30%);
+}
+
+.fenriz {
+  border: 1px solid $fenriz;
+  background-color: darken($fenriz, 20%);
+  color: lighten($fenriz, 30%);
+}
+
+.saksonia {
+  border: 1px solid $saksonia;
+  background-color: darken($saksonia, 20%);
+  color: lighten($saksonia, 30%);
+}
+
+.sever {
+  border: 1px solid $sever;
+  background-color: darken($sever, 20%);
+  color: lighten($sever, 30%);
+}
+.russvet {
+  border: 1px solid $russvet;
+  background-color: darken($russvet, 20%);
+  color: lighten($russvet, 30%);
+}
+
+.krym {
+  border: 1px solid $krym;
+  background-color: darken($krym, 20%);
+  color: lighten($krym, 30%);
+}
+.albion {
+  border: 2px solid $albion;
+  background-color: darken($albion, 20%);
+  color: lighten($albion, 30%);
+}
+.togava {
+  border: 1px solid $togava;
+  background-color: darken($togava, 30%);
+  color: lighten($togava, 30%);
+}
+
+  .add-button {
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 10px 0 !important;
+    justify-content: center;
+    background-color: lighten(gray, 40%);
+    cursor: pointer;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 46px;
+  }
+
+  .add-button--wrap {
+    display: flex;
+    justify-content: center;
+  }

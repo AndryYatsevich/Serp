@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-size {
+  width: 40%;
+}
+
+@media (max-width: 900px) {
+  .user-achievements {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hidden-icon {
+    display: none;
+  }
+
+  .btn-size {
+    width: 100%;
+  }
+}
+
+
+
+.user-achievements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-achievements-wrap, .result-wrap, .user--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.user--info--item {
+  overflow: auto;
+  text-overflow: ellipsis;
+  margin: 10px 0;
+}
+
+.result-wrap {
+  position: relative;
+  right: 20px;
+  font-size: 20px;
+}
+
+.result-border{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  width: 42px;
+  min-width: 1em;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.result-border::before {
+  content:'';
+  float: left;
+  width: auto;
+  padding-bottom: 100%;
+}
+.user-achievements--item {
+  margin: 12px;
+}
+
+.user--place {
+  position: absolute;
+  left: -6%;
+  font-size: 160px;
+  bottom: -15px;
+  opacity: 0.5;
+}
+
+.user--place--small {
+  position: absolute;
+  left: 4%;
+  bottom: 2%;
+  font-size: 50px;
+  opacity: 0.5;
+  font-weight: bold;
+}
